@@ -5,8 +5,9 @@ body, h1, h2, p, ul, li {
 }
 
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Gilmer", sans-serif;
 }
+
 
 /* Header Styles */
 header {
@@ -32,7 +33,7 @@ nav a {
   background-image: linear-gradient(to top, #000000, #5046e5);
   color: #FFFFFF;
   text-align: center;
-  padding: 5rem 0;
+  padding: 2rem 0;
 }
 
 .hero-content {
@@ -70,7 +71,7 @@ nav a {
 .content {
   background: #000000;
   color: #5046e5;
-  padding: 4rem;
+  padding: 2rem;
   text-align: center;
 }
 
