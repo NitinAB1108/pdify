@@ -5,7 +5,8 @@ body, h1, h2, p, ul, li {
 }
 
 body {
-  font-family: "Gilmer", sans-serif;
+font-family: 'Poppins', sans-serif;
+background: #000000;	
 }
 
 
@@ -31,6 +32,7 @@ nav a {
 /* Hero Section Styles */
 .hero {
   background-image: linear-gradient(to top, #000000, #5046e5);
+font-family: 'Poppins', sans-serif;
   color: #FFFFFF;
   text-align: center;
   padding: 2rem 0;
@@ -39,6 +41,9 @@ nav a {
 .hero-content {
   max-width: 800px;
   margin: 0 auto;
+font-family: 'Poppins', sans-serif;
+
+
 }
 
 .hero h1 {
@@ -70,6 +75,7 @@ nav a {
 /* Content Section Styles */
 .content {
   background: #000000;
+font-family: 'Poppins', sans-serif;
   color: #5046e5;
   padding: 2rem;
   text-align: center;
