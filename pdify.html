@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PDify</title>
+  <link rel="stylesheet" href="custom.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+  <header>
+ 
+  </header>
+  
+  <section class="hero">
+    <div class="hero-content">
+      <h1>PDify</h1>
+      <h2>Any PDF 📄 -> Chatbot 🤖</h2>
+    </div>
+  </section>
+  
+  <section class="content">
+    <h2>Dive in!</h2>
+    <p>Upload a .PDF from your computer, click the "Load PDF" button, <br />
+    when everything is ready, you can start asking questions about the pdf ;)</p>
+    <script
+	type="module"
+	src="https://gradio.s3-us-west-2.amazonaws.com/3.41.2/gradio.js"
+></script>
+
+<gradio-app src="https://nab1108-pdfchat.hf.space"></gradio-app>
+  </section>
+  
+  <footer>
+    <div class="footer-content">
+    </div>
+  </footer>
+</body>
+</html>
