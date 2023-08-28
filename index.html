@@ -4,7 +4,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>PDify</title>
-  <link rel="stylesheet" href="index.css"> <!-- Link to your CSS file -->
+  <link rel="stylesheet" href="custom.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+
+
 </head>
 <body>
   <header>
@@ -13,7 +19,7 @@
   
   <section class="hero">
     <div class="hero-content">
-      <h1>PDify</h1>
+      <h1>Edith</h1>
       <h2>Any PDF 📄 -> Chatbot 🤖</h2>
     </div>
   </section>
@@ -22,13 +28,15 @@
     <h2>Dive in!</h2>
     <p>Upload a .PDF from your computer, click the "Load PDF" button, <br />
     when everything is ready, you can start asking questions about the pdf ;)</p>
+
+  </section>
+
     <script
 	type="module"
 	src="https://gradio.s3-us-west-2.amazonaws.com/3.41.2/gradio.js"
-></script>
+	></script>
+	<gradio-app src="https://nab1108-pdfchat.hf.space"></gradio-app>
 
-<gradio-app src="https://nab1108-pdfchat.hf.space"></gradio-app>
-  </section>
   
   <footer>
     <div class="footer-content">
